@@ -1,0 +1,148 @@
+.main-bg {
+  width: 100%;
+  height: 100vh;
+  background-color: #7050f1;
+}
+
+.main-portfollio {
+  max-height: 80vh;
+  min-width: 100vw;
+}
+
+.main-scrollable {
+  overflow-y: scroll;
+  max-height: 85vh;
+  width: 90vw;
+}
+
+.purple-text {
+  color: #7050f1;
+}
+
+.purple-txt {
+  color: #7050f1;
+}
+
+.purple-txt:hover {
+  color: #370ed8;
+}
+
+.card-bg {
+  background-color: #7050f1;
+  color: white;
+}
+
+.purple-text {
+  color: #7050f1;
+}
+
+.purple-btn {
+  color: white;
+  background-color: #7050f1;
+  border: 2px solid white;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+.purple-btn:hover {
+  color: #7050f1;
+  background-color: rgb(254, 254, 254);
+}
+
+.white-btn {
+  color: #7050f1;
+  background-color: white;
+  border: 2px solid white;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+.white-btn:hover {
+  color: white;
+  background-color: #7050f1;
+}
+
+.underline-text {
+  text-decoration: underline;
+  text-decoration-color: #7050f1;
+}
+
+.truncate {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.truncate-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.truncate-2:hover {
+  display: block;
+}
+
+.selection:hover {
+  transition: all 0.2s;
+  filter: none;
+  transform: scale3d(1.02, 1.02, 1.02);
+}
+
+.purple-pill {
+  color: white;
+  background-color: #7050f1;
+  border: 2px solid white;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+
+.contact-btn {
+  background-color: #7050f1;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 8px 35px;
+}
+
+.contact-btn:hover {
+  background-color: #370ed8;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 10px;
+  border-radius: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #7050f152;
+  border-radius: 20px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #7050f1a3;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #7050f1;
+}
